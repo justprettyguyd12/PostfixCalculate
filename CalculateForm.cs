@@ -208,5 +208,11 @@ namespace Modeling_1
             }
         }
 
+        //получение значения из формы
+        public String GetInput()
+        {
+            return Output.Text;
+        }
+
     }
 }

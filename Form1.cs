@@ -52,11 +52,7 @@ namespace Modeling_1
 
         void f3_FormClosing(object sender, EventArgs e)
         {
-            ///
-            ///
-            /// U R HERE
-            /// 
-            ///
+            MainVlaue.Text = (sender as CalculateForm).GetInput();
         }
 
         //обработчик нажатия кнопки автоматического преобразования
